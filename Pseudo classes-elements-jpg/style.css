@@ -1,0 +1,67 @@
+h1::first-letter{
+    color: red;
+    font-size: 3rem;
+}
+p::first-letter{
+    color: blue;
+    font-size: 2rem;
+}
+
+ul li::marker{
+    content: "♟️";
+}
+p::selection{
+    background-color: red;
+    color: white;
+}
+h1::before{
+    content: "🗺️";
+}
+h1::after{
+    content: "🗺️";
+}
+a{
+    font-size: 2rem;
+}
+
+
+a:link{
+    color: olivedrab;
+}
+
+a:visited{
+    color: darkviolet;
+    color: brown;
+}
+
+a:hover{
+    background-color: red;
+    color: white;
+}
+
+a:active{
+    color: red;
+    background-color: aqua;
+}
+p:hover{
+    background-color: rgb(216, 9, 182);
+    color: rgb(7, 0, 0);
+}
+
+img{
+    width: 300px;
+}
+
+img:hover{
+    /* box-shadow: 10px 10px 10px red; */
+    filter: drop-shadow(10px 10px 10px red);
+    /* filter: invert(100%);
+    filter: brightness(50%);
+     */
+}
+
+iframe{
+    width: 500px;
+    height: 500px;
+    
+}
